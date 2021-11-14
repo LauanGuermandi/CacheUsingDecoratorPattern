@@ -26,13 +26,13 @@ namespace JwtDecoratorCaching.Api.Caching
             if (!isFromCache)
             {
                 item = await _autenticacaoClient.GetJwt();
+                _memoryCache.Set(JWTKEY, item);
             }
             else
             {
                 item.Source = DataSource.Cache;
             }
 
-            _memoryCache.Set(JWTKEY, item);
             return item;
         }
     }
