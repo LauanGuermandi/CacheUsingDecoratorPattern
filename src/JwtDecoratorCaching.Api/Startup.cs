@@ -1,5 +1,5 @@
 using JwtDecoratorCaching.Api.Caching;
-using JwtDecoratorCaching.Api.ExternalServices;
+using JwtDecoratorCaching.Api.HttpClients;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;

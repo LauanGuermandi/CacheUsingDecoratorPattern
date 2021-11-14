@@ -1,5 +1,5 @@
 ﻿using JwtDecoratorCaching.Api.Enums;
-using JwtDecoratorCaching.Api.ExternalServices;
+using JwtDecoratorCaching.Api.HttpClients;
 using JwtDecoratorCaching.Api.Models;
 using Microsoft.Extensions.Caching.Memory;
 using System.Threading.Tasks;

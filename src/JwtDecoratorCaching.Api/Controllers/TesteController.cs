@@ -1,4 +1,4 @@
-﻿using JwtDecoratorCaching.Api.ExternalServices;
+﻿using JwtDecoratorCaching.Api.HttpClients;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 

@@ -2,7 +2,7 @@
 using Refit;
 using System.Threading.Tasks;
 
-namespace JwtDecoratorCaching.Api.ExternalServices
+namespace JwtDecoratorCaching.Api.HttpClients
 {
     public interface IAutenticacaoClient
     {
